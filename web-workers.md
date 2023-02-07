@@ -152,6 +152,14 @@ Image manipulation, animation, layouts.
 
 ---
 
+## Shared workers
+
+Workers that are shared between two or more pages of the same origin. Since a single workers is running, we use this to provide inter-process communication between the pages.
+
+Shared workers can be accessed from any script(in contrast to dedicated workers which can only be accessed from parent script).
+
+---
+
 Other(to be explored later):
 
 Web workers with WASM
